@@ -55,12 +55,8 @@ The models were applied and compared for *F0.5-score*
 [Images](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/tree/main/images)  
 [Presentation](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/blob/main/PDF_Version_CDS_Extubation_MIMIC3.pdf) Presentation of the capstone project
 
-## Results
-- Best performing model(s): Base Model: , Advanced Model , Reduced Model: , Balanced Model:  
-- Most important features across all feature importances: 
-
 # Conclusion
-We mainly focused on the evaluation metric F-Beta(0.5), to ensure als little false positives as possible. Feature importance is the first attempt to tackle interpretability. If there would be a higher demand on interpretability, we would rather prefer transparent classifiers, such as Decision Tree, Logistic Regression or linear SVM.
+Our best performing model is XGBoost with 12 features. We mainly focused on the evaluation metric F-Beta(0.5), to ensure als little false positives as possible. Feature importance is the first attempt to tackle interpretability. If there would be a higher demand on interpretability, we would rather prefer transparent classifiers, such as Decision Tree, Logistic Regression or linear SVM.
 At the end 75% of positive identification are actually correct. The accuracy of 0.75 tell us that more than 75% of all predictions are correct. Compared to the success rate from the database (Precison: 66%, Accuracy: 55%), the goal of improving the success of extubations has been achieved.
 
 The important features of the best XGBoost Model:  
