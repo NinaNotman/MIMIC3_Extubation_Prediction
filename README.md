@@ -42,18 +42,18 @@ The models were applied and compared for *F0.5-score*
 - Support Vector Machine
  
 ## Content
-[Jupyter Notebook 1](https://github.com/CrazyBigFoot/mimic3/blob/main/01_OverviewData.ipynb) (*OverviewData*): Data Exploration and merging of tables  
-[Jupyter Notebook 2](https://github.com/CrazyBigFoot/mimic3/blob/main/02_SelectingPatientgroupFeaturesLabel.ipynb) (*SelectingPatientGroup*): Selecting patient group and defining label (extubation outcome)  
-[Jupyter Notebook 3](https://github.com/CrazyBigFoot/mimic3/blob/main/03_EDA_mimic.ipynb) (*EDA*): Data cleaning  
-[Jupyter Notebook 4](https://github.com/CrazyBigFoot/mimic3/blob/main/04_EDA_and_Preperation_Modelling.ipynb) (*DataPreparation*): Checking for correlations between the features  
-[Jupyter Notebook 5](https://github.com/CrazyBigFoot/mimic3/blob/main/05_Modeling.ipynb) (*Modeling*): Train-Test-Split, Scaling, dummy classifier, base models, as well as random search, grid search and feature importance for each base model  
-[Jupyter Notebook 6](https://github.com/CrazyBigFoot/mimic3/blob/main/06_Feature_engineering_Advanced_model.ipynb) (*FeatureEngineering*): Engineering of new features  
-[Jupyter Notebook 7](https://github.com/CrazyBigFoot/mimic3/blob/main/07_Advanced_Model.ipynb) (*AdvancedModels*): Train-Test-Split, Scaling, dummy classifier, advanced models, as well as random search, grid search and feature importance for each advanced model with added features  
-[Jupyter Notebook 8](https://github.com/CrazyBigFoot/mimic3/blob/main/08_Model-without_tracheo_column.ipynb) (*DroppingTracheoColumn*): repeating the steps of notebook 7 but dropping the column "tracheo" before running the model.  
-[Jupyter Notebook 9](https://github.com/CrazyBigFoot/mimic3/blob/main/09_Model_without_tracheo_rows.ipynb) (*DroppingTracheoPatients*): repeating the steps of notebook 7 but dropping all patients that have been tracheomized.  
-[SQL-Queries](https://github.com/CrazyBigFoot/mimic3/tree/main/sql) (*Query Archiv*)  
-[Images](https://github.com/CrazyBigFoot/mimic3/tree/main/images)  
-[Presentation](https://github.com/CrazyBigFoot/mimic3/blob/main/PDF_Version_CDS_Extubation_MIMIC3.pdf) Presentation of the capstone project
+[Jupyter Notebook 1](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/blob/main/01_OverviewData.ipynb) (*OverviewData*): Data Exploration and merging of tables  
+[Jupyter Notebook 2](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/blob/main/02_SelectingPatientgroupFeaturesLabel.ipynb) (*SelectingPatientGroup*): Selecting patient group and defining label (extubation outcome)  
+[Jupyter Notebook 3](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/blob/main/03_EDA_mimic.ipynb) (*EDA*): Data cleaning  
+[Jupyter Notebook 4](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/blob/main/04_EDA_and_Preperation_Modelling.ipynb) (*DataPreparation*): Checking for correlations between the features  
+[Jupyter Notebook 5](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/blob/main/05_Modeling.ipynb) (*Modeling*): Train-Test-Split, Scaling, dummy classifier, base models, as well as random search, grid search and feature importance for each base model  
+[Jupyter Notebook 6](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/blob/main/06_Feature_engineering_Advanced_model.ipynb) (*FeatureEngineering*): Engineering of new features  
+[Jupyter Notebook 7](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/blob/main/07_Advanced_Model.ipynb) (*AdvancedModels*): Train-Test-Split, Scaling, dummy classifier, advanced models, as well as random search, grid search and feature importance for each advanced model with added features  
+[Jupyter Notebook 8](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/blob/main/08_Model-without_tracheo_column.ipynb) (*DroppingTracheoColumn*): repeating the steps of notebook 7 but dropping the column "tracheo" before running the model.  
+[Jupyter Notebook 9](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/blob/main/09_Model_without_tracheo_rows.ipynb) (*DroppingTracheoPatients*): repeating the steps of notebook 7 but dropping all patients that have been tracheomized.  
+[SQL-Queries](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/tree/main/sql) (*Query Archiv*)  
+[Images](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/tree/main/images)  
+[Presentation](https://github.com/NinaNotman/MIMIC3_Extubation_Prediction/blob/main/PDF_Version_CDS_Extubation_MIMIC3.pdf) Presentation of the capstone project
 
 ## Results
 - Best performing model(s): Base Model: , Advanced Model , Reduced Model: , Balanced Model:  
